@@ -120,7 +120,7 @@ const StudentDashboard = () => {
       {/* Load SweetAlert2 */}
       <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.32/sweetalert2.min.js"></script>
       
-      <div className="space-y-8 p-6">
+      <div className="space-y-10 p-6">
         {/* Header */}
         <div className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 text-white rounded-3xl p-8 shadow-2xl">
           <div className="flex items-center justify-between">
