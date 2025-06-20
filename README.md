@@ -1,6 +1,9 @@
 # Student Dashboard Application
 
 This project is for managing student information. It includes a React frontend and an Express backend.
+##snapshot
+![image](https://github.com/user-attachments/assets/6bf421ae-2990-46e4-8b3c-ac0b9bf019d6)
+
 
 ## Features
 
