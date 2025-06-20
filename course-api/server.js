@@ -17,7 +17,9 @@ const courses = [
   { id: 5, name: 'Node.js Backend' },
   { id: 6, name: 'Full Stack Development' },
 ];
-
+app.get('/', (req, res) => {
+  res.send('🎉 Backend is running!');
+});
 app.get('/api/courses', (req, res) => {
   res.json(courses);
 });
