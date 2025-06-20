@@ -6,8 +6,11 @@ const PORT = 3001;
 
 
 app.use(cors({
-  origin: 'https://student-management-dashboard-1.onrender.com'
+  origin: 'https://student-management-dashboard-1.onrender.com',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
 }));
+
 
 
 
