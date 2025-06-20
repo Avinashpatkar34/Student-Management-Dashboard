@@ -5,7 +5,9 @@ const app = express();
 const PORT = 3001;
 
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://student-management-dashboard-1.onrender.com'
+}));
 
 
 
