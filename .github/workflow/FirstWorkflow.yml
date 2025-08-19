@@ -1,0 +1,10 @@
+name: my first workflow
+
+on: push
+
+jobs:
+  firstjob:
+    runs-on: ubuntu-latest   # required to specify the runner
+    steps:
+      - name: welcome
+        run: echo "hello"
